@@ -1,11 +1,11 @@
 // src/App.jsx
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ProductList from "./components/ProductList";
 import Cart from "./components/Cart";
 import Navbar from "./components/Navbar";
 import ProductDetails from "./components/ProductDetails";
-
+import "./App.css";
 const App = () => {
   const [products, setProducts] = useState([]);
   const [cartItems, setCartItems] = useState([]);
